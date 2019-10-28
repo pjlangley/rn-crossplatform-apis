@@ -9,7 +9,7 @@ import {
 
 const { width, height } = Dimensions.get('window');
 
-class PanResponder extends React.Component {
+class MyPanResponder extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -82,4 +82,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default PanResponder;
+export default MyPanResponder;
